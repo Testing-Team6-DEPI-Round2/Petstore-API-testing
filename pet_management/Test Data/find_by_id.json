@@ -1,0 +1,17 @@
+[  
+  {
+    "testCase": "TC_001",
+    "id": 123456,
+	"expectedStatus": 200
+  },
+  {
+    "testCase": "TC_002",
+    "id": "a123456",
+	"expectedStatus": 400
+  },
+  {
+    "testCase": "TC_003",
+    "id": 2752472,
+	"expectedStatus": 404
+  }
+]

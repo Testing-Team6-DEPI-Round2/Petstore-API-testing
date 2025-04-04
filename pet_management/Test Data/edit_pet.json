@@ -1,0 +1,65 @@
+[  
+  {
+    "testCase": "TC_001",
+    "name": "poppy",
+    "status": "sold",
+    "id": 123456,
+	"photo_URL": "https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg?crop=0.444xw:1.00xh;0.129xw,0&resize=980:*",
+	"category_name": "dog",
+	"expectedStatus": 200
+  },
+  {
+    "testCase": "TC_002",
+    "name": "poppy",
+    "status": "sold",
+    "id": "",
+	"photo_URL": "https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg?crop=0.444xw:1.00xh;0.129xw,0&resize=980:*",
+	"category_name": "dog",
+	"expectedStatus": 400
+  },
+  {
+    "testCase": "TC_003",
+    "name": "poppy",
+    "status": "sold",
+    "id": "ahmed",
+	"photo_URL": "https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg?crop=0.444xw:1.00xh;0.129xw,0&resize=980:*",
+	"category_name": "dog",
+	"expectedStatus": 400
+  },
+  {
+    "testCase": "TC_004",
+    "name": "poppy",
+    "status": "sold",
+    "id": 999999,
+	"photo_URL": "https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg?crop=0.444xw:1.00xh;0.129xw,0&resize=980:*",
+	"category_name": "dog",
+	"expectedStatus": 404
+  },
+  {
+    "testCase": "TC_005",
+    "name": "",
+    "status": "sold",
+    "id": 123456,
+	"photo_URL": "https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg?crop=0.444xw:1.00xh;0.129xw,0&resize=980:*",
+	"category_name": "dog",
+	"expectedStatus": 405
+  },
+  {
+    "testCase": "TC_006",
+    "name": "poppy",
+    "status": "unavailable", 
+    "id": 123456,
+	"photo_URL": "https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg?crop=0.444xw:1.00xh;0.129xw,0&resize=980:*",
+	"category_name": "dog",
+	"expectedStatus": 405
+  },  
+  {
+    "testCase": "TC_007",
+    "name": "poppy",
+    "status": "pending", 
+    "id": 123456,
+	"photo_URL": "",
+	"category_name": "dog",
+	"expectedStatus": 405
+  }
+]

@@ -1,0 +1,12 @@
+[  
+  {
+    "testCase": "TC_001",
+    "status": "pending",
+	"expectedStatus": 200
+  },
+  {
+    "testCase": "TC_002",
+    "status": "good",
+	"expectedStatus": 400
+  }
+]
